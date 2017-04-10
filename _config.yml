@@ -1,2 +1,2 @@
-baseurl: /people-by-the-numbers
+baseurl: 
 exclude: ['README.md']
