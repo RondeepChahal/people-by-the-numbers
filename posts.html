@@ -6,9 +6,12 @@ layout: posts
 
 <ul>
   {% for post in site.posts limit:5 %}
-  <li>
-    <a href = "{{site.baseurl}}{{post.url}}">{{post.title}}</a>
-    <p>{{post.meta}}</p>
-  </li>
+  <!--skip over posts that are hacked into a databse (labeled with category "tool") -->
+    {% if post.category == 'my-content' or if post.category == 'my-content' %}
+      <li>
+          <a href = "{{site.baseurl}}{{post.url}}">{{post.title}}</a>
+          <p>{{post.meta}}</p>
+      </li>
+    {% endif %}
   {% endfor %}
 </ul>

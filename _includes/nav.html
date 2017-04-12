@@ -1,9 +1,9 @@
 <nav>
   <ul class ="nav {{include.navclass}}">
-    <li><a href="{{site.baseurl}}/index.html" class="{% if page.url == '/' %}current{% endif %}">Home </a></li>
+    <li><a href="{{site.baseurl}}/" class="{% if page.url == '/' %}current{% endif %}">Home </a></li>
     <li><a href="{{site.baseurl}}/about.html" class="{% if page.url == '/about.html' %}current{% endif %}" > About </a></li>
     <li><a href="{{site.baseurl}}/posts.html" class="{% if page.url contains 'posts' or page.url contains 'visualizations' or page.url contains 'mycontent' %}current{% endif %}">New Posts </a></li>
-    <li><a href="{{site.baseurl}}/tutorials.html" class="{% if page.url == '/tutorials.html' %}current{% endif %}"> Tutorials </a></li>
+    <li><a href="{{site.baseurl}}/tutorials/" class="{% if page.url contains 'tutorials' %}current{% endif %}"> Tutorials </a></li>
     </hgroup>
   </ul>
 </nav>

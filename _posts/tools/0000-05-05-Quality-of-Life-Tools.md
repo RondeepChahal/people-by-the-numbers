@@ -1,6 +1,6 @@
 ---
 layout:
-title: Quality of Life / Workflow Tools
+title: Productivity Tools
 category: tool
 folder:
 ---
