@@ -1,3 +1,5 @@
+---
+---
 
 - title: Python and Pandas
   content: 'Once data sets get large, its time to start using a little bit of programming to help. Matlab, R, and Python are the most popular languages for scientific computing. I prefer Python and will teach how to solve data challenges using that, leveraging the Pandas and numpy libraries(python add-on code that enhances python's capabilities).'
