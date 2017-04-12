@@ -1,0 +1,14 @@
+---
+layout: posts
+---
+
+<h1> New Posts </h1>
+
+<ul>
+  {% for post in site.posts limit:5 %}
+  <li>
+    <a href = "{{site.baseurl}}{{post.url}}">{{post.title}}</a>
+    <p>{{post.meta}}</p>
+  </li>
+  {% endfor %}
+</ul>

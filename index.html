@@ -3,4 +3,25 @@ layout: default
 ---
 
   <h1> People by the Numbers </h1>
-  <p>  A blog about psychology and data </p>
+  <p>  A blog about psychology and data that teaches you how to learn data analysis tools </p>
+
+  <h2> Approach </h2>
+
+This site is about trying to understand the complex world of human behavior and see if we can make sense of it using modern computational tools.
+
+To that end, I'll be sharing articles that provide a foundation or an interesting perspective on understanding the world of psychology or behavior.
+
+But massively complex questions create massive amounts of data. In order to make sense of it data scientists use computation tools.
+
+Thus, I'll also be showing you how to use the tools to acquire, process, and analyze data into insights.
+
+<h2> Tools </h2>
+
+<ol>
+{% for tool in site.data.tools %}
+    <li>
+      <a href="">{{tool.title}}</a>
+      {{tool.content}}
+    </li>
+{% endfor %}
+</ol>

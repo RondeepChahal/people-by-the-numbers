@@ -1,0 +1,14 @@
+---
+layout: posts
+---
+
+<h1> New Original Articles </h1>
+
+<ul>
+  {% for news in site.categories.my-content limit:5 %}
+  <li>
+    <a href = "">{{news.title}}</a>
+    <p>{{news.meta}}</p>
+  </li>
+  {% endfor %}
+</ul>

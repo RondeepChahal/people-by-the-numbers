@@ -3,17 +3,20 @@
 <head>
   <meta charset ='utf-8'>
   <title> People by the Numbers </title>
+  <link href ="{{site.baseurl}}/css/common.css" rel="stylesheet">
 </head>
 <body>
 
 <header>
   <h1> People by the Numbers </h1>
-  <nav>
-    <ul>
-      <li><a href="{{site.baseurl}}/index.html">Home </a></li>
-      <li><a href="{{site.baseurl}}/news.html">News </a></li>
-  </nav>
+  {% include nav.html navclass ='nav-top' %}
+</header>
+
 {{content}}
 
+<footer>
+  {% include nav.html navclass ='nav-bottom' %}
+  <p> 2017 People by the Numbers </p>
+</footer>
 </body>
 </html>
