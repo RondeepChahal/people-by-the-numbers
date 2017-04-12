@@ -1,0 +1,11 @@
+<ul>
+  {% for post in site.pages limit:5 %}
+  <!--skip over posts that are hacked into a databse (labeled with category "tool") -->
+    {% if post.type == 'my-content' or if post.category == 'my-content' %}
+      <li>
+          <a href = "{{site.baseurl}}{{post.url}}">{{post.title}}</a>
+          <p>{{post.meta}}</p>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>

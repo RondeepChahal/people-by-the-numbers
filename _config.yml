@@ -1,4 +1,2 @@
-baseurl: 
+baseurl:
 exclude: ['README.md']
-
-theme: jekyll-theme-architect
