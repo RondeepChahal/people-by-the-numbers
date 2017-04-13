@@ -4,10 +4,11 @@ layout: posts
 
 <h1> New Posts </h1>
 
+Some content that talks about my posts.
+
 <ul>
-  {% for post in site.posts limit:5 %}
-  <!--skip over posts that are hacked into a databse (labeled with category "tool") -->
-    {% if post.category == 'my-content' or if post.category == 'my-content' %}
+  {% for post in site.posts %}
+    {% if post.type == 'my-content' or post.type == 'reshared-content' %}
       <li>
           <a href = "{{site.baseurl}}{{post.url}}">{{post.title}}</a>
           <p>{{post.meta}}</p>

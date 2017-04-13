@@ -3,7 +3,8 @@ layout: posts-sharedarticle
 title: Big Data meets therapy
 meta: An interesting article from the Atlantic discusses how big data and data science can help improve mental health.
 source: https://www.theatlantic.com/magazine/archive/2017/04/what-your-therapist-doesnt-know/517797/
-category: reshared-content
+category: content
+type: reshared-content
 ---
 
 
