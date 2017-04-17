@@ -2,6 +2,15 @@
 layout: default
 ---
 
+<nav>
+  <ul>
+    <li>
+    <a href="{{site.baseurl}}/">Home</a>
+    /
+    <a href="{{site.baseurl}}/tutorials/">Tutorials</a>
+  </ul>
+</nav>
+
 <h1> Tutorials </h1>
 <p>  How to do cool stuff </p>
 
@@ -11,8 +20,11 @@ layout: default
 <ol>
 {% for tool in site.categories.tool %}
     <li>
-      <a href="">{{ tool.title }}</a>
-      {{ tool.content }}
+      <a href="{{site.baseurl}}{{tool.url}}">{{ tool.title }}
+      <p> <img src="{{site.baseurl}}/img/{{tool.image}}" height="128"> </p>
+      </a>
+      <p> {{ tool.meta }} </p>
+
     </li>
 {% endfor %}
 </ol>

@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<nav>
+  <ul>
+    <li>
+    <a href="{{site.baseurl}}/">Home</a>
+    /
+    <a href="{{site.baseurl}}/tutorials/">Tutorials</a>
+    /
+    <a href="{{site.baseurl}}/tutorials/{{page.folder}}/"> {{page.folder}} </a>
+    /
+    <a href="{{site.baseurl}}{{page.url}}">{{page.title}}</a></li>
+  </ul>
+</nav>
+
+<h1>{{page.title}}</h1>
+
+{{content}}

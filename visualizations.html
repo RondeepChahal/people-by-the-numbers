@@ -4,3 +4,11 @@ layout: posts
 
 <h1> Just Beautiful Data </h1>
 <p>  Visualizations </p>
+
+<ul>
+  {% for post in site.posts %}
+      <li>
+          <p>{{post.title}}</p>
+      </li>
+  {% endfor %}
+</ul>

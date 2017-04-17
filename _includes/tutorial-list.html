@@ -1,10 +1,12 @@
+{% include tutorial-nav.html %}
+
 <ul>
-  {% for post in site.pages limit:5 %}
-  <!--skip over posts that are hacked into a databse (labeled with category "tool") -->
-    {% if post.type == 'my-content' or if post.type == 'reshared-content' %}
+  {% for tool in site.pages %}
+    {% if tool.folder == include.folder %}
       <li>
-          <a href = "{{site.baseurl}}{{post.url}}">{{post.title}}</a>
-          <p>{{post.meta}}</p>
+        <a href="{{site.baseurl}}{{tool.url}}">
+        {{tool.title}}
+      </a>
       </li>
     {% endif %}
   {% endfor %}
