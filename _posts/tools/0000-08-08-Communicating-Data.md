@@ -8,5 +8,6 @@ meta: "Calculating a statistic is only valuable if you are able to do something 
 I will be sharing some of my favorite articles about communicating data effectively as well as teach you  how to present your data using some of my favorite mediums."
 image: Communicating-Data.png
 ---
+{% include tutorial-nav.html %}
 
-{% include tutorial-list.html folder='Communicating-Data' %}
+{% include tutorial-list.html folder=page.folder %}

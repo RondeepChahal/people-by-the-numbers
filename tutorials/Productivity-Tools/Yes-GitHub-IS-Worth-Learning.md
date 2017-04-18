@@ -1,6 +1,6 @@
 ---
 layout: tutorial
-title: GitHub 
+title: GitHub
 category: my-content
 type: tutorial
 folder: Productivity-Tools
