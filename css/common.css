@@ -5,6 +5,18 @@ html {
   font: normal 100%/1.4 Georgia,serif;
 }
 
+.masthead {
+  padding: 1em;
+  background: #000531 URL("../img/people.jpg") center ;
+  background-size: cover;
+}
+
+.masthead-about {
+  padding: 1em;
+  background: #000531 URL("../img/SFcity.jpg") center;
+  background-size: cover;
+}
+
 .current {
   background-color: #000531;
   color: #fff;
@@ -23,4 +35,18 @@ html {
 
 .nav-top {
   font-size: 1.25rem;
+}
+
+div.transbox {
+    margin: 10px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+div.transbox p {
+    margin: 2%;
+    font-weight: bold;
+    color: #000000;
 }
