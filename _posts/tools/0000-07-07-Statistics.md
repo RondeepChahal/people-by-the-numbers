@@ -8,5 +8,6 @@ meta: "Making sense of thousands of data points is fundamentally an exercise inv
 I'll point you to some of my favorite resources for revisiting Statistics, and give you a crash course in the most useful concepts when it comes to data analysis and data science."
 image: statistics.jpg
 ---
+{% include tutorial-nav.html %}
 
-{% include tutorial-list.html folder='Statistics' %}
+{% include tutorial-list.html folder=page.folder %}
