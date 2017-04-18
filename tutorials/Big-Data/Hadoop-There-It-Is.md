@@ -4,4 +4,5 @@ title: Hadoop, there it is - Hadoop and why it is important explained in a nutsh
 category: my-content
 type: tutorial
 folder: Big-Data
+meta:
 ---

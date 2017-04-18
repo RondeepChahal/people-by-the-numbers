@@ -2,8 +2,9 @@
 <html lang='en-ca'>
 <head>
   <meta charset ='utf-8'>
-  <title> People by the Numbers </title>
+  <title> {% if page.title %} {{page.title}} • {% endif %} People by the Numbers {% if page.titleAfter %} • {{page.titleAfter}}  {% endif %}  </title>
   <link href ="{{site.baseurl}}/css/common.css" rel="stylesheet">
+  <meta name="description" content="{{page.meta}}">
 </head>
 <body>
 

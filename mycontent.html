@@ -1,5 +1,7 @@
 ---
 layout: posts
+titleAfter: New Original Data Articles
+meta: New original content - articles breaking down psychology, behavior, or data science techniques.
 ---
 
 <h1> New Original Articles </h1>
@@ -7,7 +9,7 @@ layout: posts
 <ul>
   {% for news in site.categories.my-content limit:5 %}
   <li>
-    <a href = "">{{news.title}}</a>
+    <a href ="{{site.baseurl}}{{news.url}}">{{news.title}}</a>
     <p>{{news.meta}}</p>
   </li>
   {% endfor %}
