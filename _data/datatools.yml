@@ -1,0 +1,32 @@
+- title: Python and Pandas
+  content: "Once data sets get large, its time to start using a little bit of programming to help.
+    Matlab, R, and Python are the most popular languages for scientific computing. I prefer Python
+    and will teach how to solve data challenges using that, leveraging the Pandas and numpy libraries
+    (Python add-on code that enhances Python's capabilities)."
+
+- title: Terminal
+  content: "One of the first things you have to be able to do in order to really
+    get comfortable with data analysis is unlock the full power of your computer.
+    On Macs, that means learning how to use the Terminal. I will be teaching you
+    the most essential basics of how to use Terminal."
+
+- title: Excel
+  content: "The most basic computer tool to do data analysis is Microsoft Excel
+    or Google Sheets. There is a LOT more power in these applications than simply
+    making graphs. They are very useful for taking a quick snapshot on your data
+    and doing sanity checks.
+
+    Currently, Excel is much more full featured than Google Sheets, and I will be
+    teaching mostly how to do tasks in Excel."
+
+- title: Visualization Tools
+  content: "Data visualizations are a key part of data analysis and communication.
+    Visualizations help you spot check your data and present your data in a compelling
+    way. I'll be teaching a variety of data visualization tools."
+
+- title: Quality of Life / Workflow Tools
+  content: "Analyzing and sharing data can be a complicated multiple step process.
+    It can become real painful real quick to stay organized without help. These
+    quality of life tools, such as Github, Atom, Trello, Asana, Jira, and Jupyter
+    notebooks have become an integral part of my workflow, and let me get things
+    done. I'll teach you how to use them too."
