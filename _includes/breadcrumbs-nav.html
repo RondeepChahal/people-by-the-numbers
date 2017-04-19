@@ -2,6 +2,6 @@
   <ul>
     <a href="{{site.baseurl}}/">Home</a>
     /
-    <a href="{{site.baseurl}}{{page.url}}">{{page.title}}</a>
+    <a href="{{site.baseurl}}{{page.url}}">{% if page.title %}{{page.title}} {% endif %} {% if page.titleAfter %} {{page.titleAfter}} {% endif %} </a>
   </ul>
 </nav>

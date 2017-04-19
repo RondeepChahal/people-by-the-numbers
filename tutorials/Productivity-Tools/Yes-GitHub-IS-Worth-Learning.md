@@ -3,6 +3,6 @@ layout: tutorial
 title: GitHub
 category: my-content
 type: tutorial
-folder: Productivity-Tools
+folder: Productivity Tools
 meta:
 ---

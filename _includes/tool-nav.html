@@ -4,12 +4,6 @@
     /
     <a href="{{site.baseurl}}/tutorials/">Tutorials</a>
     /
-    {% for post in site.posts %}
-        {% if post.folder == page.folder %}
-            <a href="{{post.url}}" >{{post.folder}}</a>
-        {% endif %}
-    {% endfor %}
-    /
     <a href="{{site.baseurl}}{{page.url}}">{{page.title}}</a>
   </ul>
 </nav>
