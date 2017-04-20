@@ -2,4 +2,4 @@ baseurl:
 exclude: ['README.md']
 permalink: pretty
 
-theme: jekyll-theme-architect
+theme: jekyll-theme-minimal
