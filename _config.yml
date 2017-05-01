@@ -1,5 +1,3 @@
 baseurl:
 exclude: ['README.md']
 permalink: pretty
-
-theme: minimal-mistakes-jekyll
