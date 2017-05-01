@@ -9,18 +9,3 @@ html {
   background-color: #000531;
   color: #fff;
 }
-
-.nav {
-  margin: 0;
-  padding: 0;
-
-  list-style-type: none;
-}
-
-.nav > li {
-  display: inline-block;
-}
-
-.nav-top {
-  font-size: 1.25rem;
-}
